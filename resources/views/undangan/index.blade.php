@@ -1,7 +1,7 @@
     @extends('undangan.app')
     @section('content')
     <!-- Navbar Bottom -->
-    <nav class="navbar navbar-dark bg-dark navbar-expand fixed-bottom rounded-top-4 p-0 mt-2" id="navbar-menus">
+    <nav class="navbar navbar-dark bg-dark navbar-expand fixed-bottom rounded-top-4 p-0" id="navbar-menus">
         <ul class="navbar-nav nav-justified w-100 align-items-center">
             <li class="nav-item">
                 <a class="nav-link" href="#home">
@@ -466,7 +466,38 @@
 
     <!-- Footer Undangan -->
     <footer>
+        <div class="container">
+            <div class="text-center">
+                <p style="font-size: 0.9rem" class="pt-2 pb-1 px-2" data-aos="fade-up" data-aos-duration="1500">
+                    Merupakan suatu kehormatan dan kebahagiaan bagi kami apabila, Bapak
+                    / Ibu / Saudara / i. berkenan hadir untuk memberikan do'a restunya
+                    kami ucapkan terimakasih.
+                </p>
 
+                <h1 class="font-esthetic" data-aos="fade-up" data-aos-duration="2000">
+                    Wassalamualaikum Warahmatullahi Wabarakatuh
+                </h1>
+                <h1 class="font-arabic py-4 px-2" data-aos="fade-up" data-aos-duration="2000" style="font-size: 2rem">
+                    اَلْحَمْدُ لِلّٰهِ رَبِّ الْعٰلَمِيْنَۙ
+                </h1>
+
+                <hr class="mt-2 mb-1" />
+
+                <div class="row align-items-center justify-content-between flex-column flex-sm-row">
+                    <div class="col-auto">
+                        <small class="text-light">
+                            Made By<i class="fa-solid fa-heart mx-1"></i>Syarif Syarifuddin
+                        </small>
+                    </div>
+                    <div class="col-auto">
+                        <small>
+                            <i class="fa-brands fa-github me-1"></i><a target="_blank" href="https://github.com/soden46">Syarif Soden</a>
+                            <i class="fa-brands fa-blogger-b me-1"></i><a target="_blank" href="https://rebrand.ly/imzjxs0">Syarif Soden</a>
+                        </small>
+                    </div>
+                </div>
+            </div>
+        </div>
     </footer>
 
     <!-- Welcome Page -->

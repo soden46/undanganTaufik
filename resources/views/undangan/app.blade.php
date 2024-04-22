@@ -70,7 +70,6 @@
 
 <body style="overflow-y: hidden">
     @yield('content')
-    @include('undangan.footer')
     @include('undangan.js')
 </body>
 
