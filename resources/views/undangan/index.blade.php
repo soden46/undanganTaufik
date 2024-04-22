@@ -54,7 +54,7 @@
                 <h1 class="font-esthetic my-4" style="font-size: 3rem">
                     Taufik & Citra
                 </h1>
-                <p class="mb-0" style="font-size: 1.5rem">Rabu, 15 Maret 2023</p>
+                <p class="mb-0" style="font-size: 1.5rem">Selasa, 02 Juli 2024</p>
 
                 <a class="btn btn-outline-light btn-sm shadow rounded-pill px-3 my-2" target="_blank" href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=The%20Wedding%20of%20Wahyu%20and%20Riski&details=The%20Wedding%20of%20Wahyu%20and%20Riski%20%7C%2015%20Maret%202023%20%7C%20RT%2010%20RW%2002,%20Desa%20Pajerukan,%20Kec.%20Kalibagor,%20Kab.%20Banyumas,%20Jawa%20Tengah%2053191%20%7C%2010.00%20-%2011.00%20WIB&dates=20230315T100000/20230315T110000&location=https://goo.gl/maps/ALZR6FJZU3kxVwN86">
                     <i class="fa-solid fa-calendar-check me-2"></i>Save The Date
@@ -207,7 +207,7 @@
                     </h1>
                     <div class="border rounded-pill shadow py-2 px-4 mx-2 mb-4">
                         <!-- Ganti waktunya pada data-waktu (sesuai format tersebut) -->
-                        <div class="row justify-content-center" data-waktu="2024-01-01 00:00:00" id="tampilan-waktu">
+                        <div class="row justify-content-center" data-waktu="2024-07-02 00:00:00" id="tampilan-waktu">
                             <div class="col-3 p-1">
                                 <h2 class="d-inline m-0 p-0" id="hari">0</h2>
                                 <small class="ms-1 me-0 my-0 p-0 d-inline">Hari</small>
@@ -243,13 +243,8 @@
 
                     <div class="overflow-x-hidden">
                         <div class="py-2" data-aos="fade-right" data-aos-duration="1500">
-                            <h1 class="font-esthetic" style="font-size: 2rem">Akad</h1>
+                            <h1 class="font-esthetic" style="font-size: 2rem">Ngunduh Mantu</h1>
                             <p>Pukul 10.00 WIB - Selesai</p>
-                        </div>
-
-                        <div class="py-2" data-aos="fade-left" data-aos-duration="1500">
-                            <h1 class="font-esthetic" style="font-size: 2rem">Resepsi</h1>
-                            <p>Pukul 13.00 WIB - Selesai</p>
                         </div>
                     </div>
 
