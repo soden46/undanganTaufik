@@ -358,14 +358,14 @@
                                 <img src="https://upload.wikimedia.org/wikipedia/id/thumb/5/55/BNI_logo.svg/640px-BNI_logo.svg.png" class="img-fluid w-50 rounded" alt="bni" />
 
                                 <p class="card-text mt-3 mb-0" style="font-size: 0.9rem">
-                                    No. Rekening 123456789
+                                    No. Rekening belom tersedia
                                 </p>
                                 <p class="card-text" style="font-size: 0.9rem">
                                     a.n Lorem ipsum dolor
                                 </p>
 
                                 <!-- Ubah juga data-nomer sesuai dengan no rekening -->
-                                <button class="btn btn-light btn-sm rounded-3" data-nomer="123456789" onclick="util.salin(this)" autofocus>
+                                <button class="btn btn-light btn-sm rounded-3" data-nomer="belom tersedia" onclick="util.salin(this)" autofocus>
                                     Salin No. Rekening
                                 </button>
                             </div>
@@ -374,14 +374,14 @@
                                 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/BANK_BRI_logo.svg/640px-BANK_BRI_logo.svg.png" class="img-fluid w-50 rounded" alt="bri" />
 
                                 <p class="card-text mt-3 mb-0" style="font-size: 0.9rem">
-                                    No. Rekening 123456789
+                                    No. Rekening belom tersedia
                                 </p>
                                 <p class="card-text" style="font-size: 0.9rem">
                                     a.n Lorem ipsum dolor
                                 </p>
 
                                 <!-- Ubah juga data-nomer sesuai dengan no rekening -->
-                                <button class="btn btn-light btn-sm rounded-3" data-nomer="123456789" onclick="util.salin(this)" autofocus>
+                                <button class="btn btn-light btn-sm rounded-3" data-nomer="belom tersedia" onclick="util.salin(this)" autofocus>
                                     Salin No. Rekening
                                 </button>
                             </div>
