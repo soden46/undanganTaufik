@@ -330,36 +330,6 @@
                             <span class="visually-hidden">Next</span>
                         </button>
                     </div>
-
-                    <div id="carousel-foto-dua" data-aos="fade-up" data-aos-duration="1500" class="carousel slide mt-4" data-bs-ride="carousel">
-                        <div class="carousel-indicators">
-                            <button type="button" data-bs-target="#carousel-foto-dua" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                            <button type="button" data-bs-target="#carousel-foto-dua" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                            <button type="button" data-bs-target="#carousel-foto-dua" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                        </div>
-
-                        <div class="carousel-inner rounded-4">
-                            <div class="carousel-item active">
-                                <img src="https://picsum.photos/1280/720?random=4" alt="gambar 4" class="d-block w-100" onclick="util.modal(this)" />
-                            </div>
-                            <div class="carousel-item">
-                                <img src="https://picsum.photos/1280/720?random=5" alt="gambar 5" class="d-block w-100" onclick="util.modal(this)" />
-                            </div>
-                            <div class="carousel-item">
-                                <img src="https://picsum.photos/1280/720?random=6" alt="gambar 6" class="d-block w-100" onclick="util.modal(this)" />
-                            </div>
-                        </div>
-
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carousel-foto-dua" data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Previous</span>
-                        </button>
-
-                        <button class="carousel-control-next" type="button" data-bs-target="#carousel-foto-dua" data-bs-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Next</span>
-                        </button>
-                    </div>
                 </div>
             </div>
         </section>
@@ -422,7 +392,7 @@
         </div>
 
         <!-- Ucapan -->
-        <section class="m-0 p-0" id="ucapan">
+        <!-- <section class="m-0 p-0" id="ucapan">
             <div class="container">
                 <div class="card-body border rounded-4 shadow p-3">
                     <h1 class="font-esthetic text-center mb-3" style="font-size: 3rem">
@@ -485,7 +455,7 @@
                     </ul>
                 </nav>
             </div>
-        </section>
+        </section> -->
 
         <!-- Wave Separator -->
         <svg xmlns="https://www.w3.org/2000/svg" viewBox="0 0 1440 320">
