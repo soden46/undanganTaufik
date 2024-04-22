@@ -23,8 +23,8 @@
             </div>
             <div class="col-auto">
                 <small>
-                    <i class="fa-brands fa-github me-1"></i><a target="_blank" href="https://github.com/dewanakl/undangan">dewanakl</a>
-                    <i class="fa-brands fa-blog me-1"></i><a target="_blank" href="https://www.youtube.com/watch?v=1WCIrw85zbQ">Syarif Soden</a>
+                    <i class="fa-brands fa-github me-1"></i><a target="_blank" href="https://github.com/dewanakl/undangan">Github Syarif Soden</a>
+                    <i class="fa-brands fa-blog me-1"></i><a target="_blank" href="https://www.youtube.com/watch?v=1WCIrw85zbQ">Blog Syarif Soden</a>
                 </small>
             </div>
         </div>

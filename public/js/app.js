@@ -534,10 +534,10 @@ const comment = (() => {
     };
 
     const kirim = async () => {
-    // Memperoleh data dari form
-    let nama = formNama.value;
-    let hadir = parseInt(formKehadiran.value);
-    let komentar = formPesan.value;
+        let nama = formNama.value;
+        let hadir = parseInt(formKehadiran.value);
+        let komentar = formPesan.value;
+        let token = localStorage.getItem('token') ?? '';
 
         if (token.length == 0) {
             alert('Terdapat kesalahan, token kosong !');
@@ -565,47 +565,44 @@ const comment = (() => {
             return;
         }
 
-        // Menyiapkan data untuk dikirim
-    const data = {
-        nama: nama,
-        hadir: hadir == 1,
-        komentar: komentar
-    };
+        formNama.disabled = true;
+        formKehadiran.disabled = true;
+        formPesan.disabled = true;
+        buttonKirim.disabled = true;
 
-    try {
-        // Mengirim permintaan POST ke endpoint API tanpa token
-        const response = await fetch('/api/comment', {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json'
-            },
-            body: JSON.stringify(data)
-        });
+        let tmp = buttonKirim.innerHTML;
+        buttonKirim.innerHTML = loader;
 
-        // Memeriksa respons dari server
-        if (response.ok) {
-            const responseData = await response.json();
-            owns.set(responseData.data.uuid, responseData.data.own);
+        let isSuccess = false;
+        await request('POST', '/api/comment')
+            .token(token)
+            .body({
+                nama: nama,
+                hadir: hadir == 1,
+                komentar: komentar
+            })
+            .then((res) => {
+                if (res.code == 201) {
+                    owns.set(res.data.uuid, res.data.own);
+                    isSuccess = true;
+                }
+            })
+            .catch((err) => {
+                alert(`Terdapat kesalahan: ${err}`);
+            });
+
+        if (isSuccess) {
             await pagination.reset();
             document.getElementById('daftar-ucapan').scrollIntoView({ behavior: 'smooth' });
             resetForm();
-        } else {
-            // Menangani respons error dari server
-            const errorData = await response.json();
-            alert(`Terdapat kesalahan: ${errorData.message}`);
         }
-    } catch (error) {
-        // Menangani kesalahan jaringan atau kesalahan lainnya
-        alert(`Terdapat kesalahan: ${error.message}`);
-    } finally {
-        // Mengaktifkan kembali tombol dan memulihkan tampilan
+
         buttonKirim.disabled = false;
         buttonKirim.innerHTML = tmp;
         formNama.disabled = false;
         formKehadiran.disabled = false;
         formPesan.disabled = false;
-    }
-};
+    };
 
     const balasan = async (button) => {
         resetForm();
