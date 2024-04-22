@@ -4,7 +4,7 @@
  <title>Undangan Pernikahan Taufik dan Citra</title>
 
  <!-- SEO Tag -->
- <meta name="author" content="dewanakl" />
+ <meta name="author" content="syarif soden" />
  <meta name="language" content="Indonesia" />
  <meta name="robots" content="index, follow, max-image-preview:large" />
  <meta name="googlebot" content="index, follow, max-image-preview:large" />

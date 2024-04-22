@@ -18,13 +18,13 @@
     <meta property="og:title" content="Website Undangan Pernikahan Taufik dan Citra" />
     <meta property="og:description" content="Website Undangan Pernikahan Taufik dan Citra" />
     <meta property="og:keywords" content="undangan, wedding, undangan digital, undangan online, wedding invitation, template undangan, template undangan pernikahan, undangan pernikahan, template undangan online, wedding invitation github, template website, template website undangan pernikahan" />
-    <meta property="og:image" content="https://ulems.my.id/assets/images/bg.jpeg" />
-    <meta property="og:image:secure_url" content="https://ulems.my.id/assets/images/bg.jpeg" />
+    <meta property="og:image" content="https://udangan.syarifsoden.my.id/assets/images/bg.jpeg" />
+    <meta property="og:image:secure_url" content="https://udangan.syarifsoden.my.id/assets/images/bg.jpeg" />
     <meta property="og:image:type" content="image/jpeg" />
     <meta property="og:image:alt" content="Undangan Pernikahan Taufik dan Citra " />
     <meta property="og:type" content="website" />
     <meta property="og:locale" content="id_ID" />
-    <meta property="og:url" content="https://ulems.my.id" />
+    <meta property="og:url" content="https://udangan.syarifsoden.my.id" />
     <meta property="og:site_name" content="Undangan Pernikahan Taufik dan Citra " />
 
     <!-- Appearance -->
@@ -32,10 +32,10 @@
     <meta name="apple-mobile-web-app-title" content="Undangan Pernikahan Taufik dan Citra" />
     <meta name="theme-color" content="#111111" />
     <meta name="color-scheme" content="dark" />
-    <link rel="canonical" href="https://ulems.my.id/" />
-    <link rel="shortcut icon" type="image/x-icon" href="https://ulems.my.id/favicon.ico" />
-    <link rel="apple-touch-icon" sizes="192x192" type="image/png" href="https://ulems.my.id/assets/images/icon-192x192.png" />
-    <link rel="icon" type="image/x-icon" href="https://ulems.my.id/favicon.ico" />
+    <link rel="canonical" href="https://udangan.syarifsoden.my.id" />
+    <link rel="shortcut icon" type="image/x-icon" href="https://udangan.syarifsoden.my.idfavicon.ico" />
+    <link rel="apple-touch-icon" sizes="192x192" type="image/png" href="https://udangan.syarifsoden.my.idassets/images/icon-192x192.png" />
+    <link rel="icon" type="image/x-icon" href="https://udangan.syarifsoden.my.idfavicon.ico" />
 
     <!-- Preconnect and preload CDN -->
     <link rel="dns-prefetch" href="https://cdn.jsdelivr.net" crossorigin="anonymous" />
