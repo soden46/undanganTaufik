@@ -254,8 +254,7 @@
                             Maps
                         </a>
                         <p class="mb-0 mt-1 mx-1 pb-4" style="font-size: 0.9rem">
-                            RT 10 RW 02, Desa Pajerukan, Kec. Kalibagor, Kab. Banyumas, Jawa
-                            Tengah 53191
+                            RT 001 RW 001, Desa Saptomulyo, Kec. Kota Gajah, Kab. Lampung Tengah, Lampung 34153
                         </p>
                     </div>
                 </div>
