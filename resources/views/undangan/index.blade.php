@@ -285,11 +285,11 @@
         <section class="dark-section" id="galeri">
             <div class="container pb-2 pt-4">
                 <div class="card-body border rounded-4 shadow p-3">
-                    <h1 class="font-esthetic text-center py-3" data-aos="fade-down" data-aos-duration="1500" style="font-size: 2rem">
+                    <h1 class="font-esthetic text-center py-3" data-aos="fade-down" data-aos-duration="1000" style="font-size: 2rem">
                         Galeri
                     </h1>
 
-                    <div id="carousel-foto-satu" data-aos="fade-up" data-aos-duration="1500" class="carousel slide" data-bs-ride="carousel">
+                    <div id="carousel-foto-satu" data-aos="fade-up" data-aos-duration="1000" class="carousel slide" data-bs-ride="carousel">
                         <div class="carousel-indicators">
                             <button type="button" data-bs-target="#carousel-foto-satu" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                             <button type="button" data-bs-target="#carousel-foto-satu" data-bs-slide-to="1" aria-label="Slide 2"></button>
