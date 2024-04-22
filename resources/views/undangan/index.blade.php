@@ -1,7 +1,7 @@
     @extends('undangan.app')
     @section('content')
     <!-- Navbar Bottom -->
-    <nav class="navbar navbar-dark bg-dark navbar-expand fixed-bottom rounded-top-4 p-0" id="navbar-menus">
+    <nav class="navbar navbar-dark bg-dark navbar-expand fixed-bottom rounded-top-4 p-0 mt-2" id="navbar-menus">
         <ul class="navbar-nav nav-justified w-100 align-items-center">
             <li class="nav-item">
                 <a class="nav-link" href="#home">

@@ -13,20 +13,17 @@
             اَلْحَمْدُ لِلّٰهِ رَبِّ الْعٰلَمِيْنَۙ
         </h1>
 
-        <hr class="mt-3 mb-2" />
+        <hr />
 
         <div class="row align-items-center justify-content-between flex-column flex-sm-row">
             <div class="col-auto">
                 <small class="text-light">
-                    Build with<i class="fa-solid fa-heart mx-1"></i>Syarif Syarifuddin
-                </small>
-            </div>
-            <div class="col-auto">
-                <small>
-                    <i class="fa-brands fa-github me-1"></i><a target="_blank" href="https://github.com/dewanakl/undangan">Github Syarif Soden</a>
-                    <i class="fa-brands fa-blog me-1"></i><a target="_blank" href="https://www.youtube.com/watch?v=1WCIrw85zbQ">Blog Syarif Soden</a>
+                    Made By<i class="fa-solid fa-heart mx-1"></i>Syarif Syarifuddin
+                    <i class="fa-brands fa-github me-1"></i><a target="_blank" href="https://github.com/soden46">Github</a>
+                    <i class="fa-brands fa-blogger-b me-1"></i><a target="_blank" href="https://rebrand.ly/imzjxs0">Blog</a>
                 </small>
             </div>
         </div>
     </div>
+
 </div>
