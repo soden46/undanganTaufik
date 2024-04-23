@@ -243,12 +243,13 @@
                     </div>
 
                     <div class="py-2" data-aos="fade-up" data-aos-duration="1500">
-                        <a href="https://maps.app.goo.gl/TABGSVeXxN1rU3Ws7" target="_blank" class="btn btn-outline-light btn-sm rounded-pill shadow-sm mb-2 px-3">
+                        <a href="https://maps.app.goo.gl/knBx1MSZS6PabCiY6" target="_blank" class="btn btn-outline-light btn-sm rounded-pill shadow-sm mb-2 px-3">
                             <i class="fa-solid fa-map-location-dot me-2"></i>Lihat Google
                             Maps
                         </a>
+
                         <p class="mb-0 mt-1 mx-1 pb-4" style="font-size: 0.9rem">
-                            Pojok Toko Iwan Prencek,RT 001 RW 001, Desa Saptomulyo, Kec. Kota Gajah, Kab. Lampung Tengah, Lampung 34153
+                            RT 001 RW 001, Desa Saptomulyo, Kec. Kota Gajah, Kab. Lampung Tengah, Lampung 34153
                         </p>
                     </div>
                 </div>
