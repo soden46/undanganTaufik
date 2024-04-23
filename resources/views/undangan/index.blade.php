@@ -137,9 +137,9 @@
                         <div class="img-crop border border-3 border-light shadow my-4 mx-auto">
                             <img src="./assets/images/cewe.png" alt="cewe" onclick="util.modal(this)" />
                         </div>
-                        <h1 class="font-esthetic" style="font-size: 3rem">Citra</h1>
+                        <h1 class="font-esthetic" style="font-size: 3rem">Citra Dwi Nur Afni</h1>
                         <p class="mt-3 mb-0" style="font-size: 1.25rem">Putri</p>
-                        <p class="mb-0">Bapak ... & Ibu ...</p>
+                        <p class="mb-0">Bapak Yulianto & Ibu Surati</p>
                     </div>
                 </div>
 
@@ -243,12 +243,12 @@
                     </div>
 
                     <div class="py-2" data-aos="fade-up" data-aos-duration="1500">
-                        <a href="https://goo.gl/maps/ALZR6FJZU3kxVwN86" target="_blank" class="btn btn-outline-light btn-sm rounded-pill shadow-sm mb-2 px-3">
+                        <a href="https://maps.app.goo.gl/TABGSVeXxN1rU3Ws7" target="_blank" class="btn btn-outline-light btn-sm rounded-pill shadow-sm mb-2 px-3">
                             <i class="fa-solid fa-map-location-dot me-2"></i>Lihat Google
                             Maps
                         </a>
                         <p class="mb-0 mt-1 mx-1 pb-4" style="font-size: 0.9rem">
-                            RT 001 RW 001, Desa Saptomulyo, Kec. Kota Gajah, Kab. Lampung Tengah, Lampung 34153
+                            Pojok Toko Iwan Prencek,RT 001 RW 001, Desa Saptomulyo, Kec. Kota Gajah, Kab. Lampung Tengah, Lampung 34153
                         </p>
                     </div>
                 </div>
@@ -343,22 +343,22 @@
                     <div class="overflow-x-hidden">
                         <div class="row justify-content-center">
                             <div class="col-5 card-body border rounded-4 shadow p-3 m-3" data-aos="fade-down" data-aos-duration="1500">
-                                <img src="https://upload.wikimedia.org/wikipedia/id/thumb/5/55/BNI_logo.svg/640px-BNI_logo.svg.png" class="img-fluid w-50 rounded" alt="bni" />
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Bank_Central_Asia.svg/799px-Bank_Central_Asia.svg.png" class="img-fluid w-50 rounded" alt="bca" />
 
                                 <p class="card-text mt-3 mb-0" style="font-size: 0.9rem">
-                                    No. Rekening belom tersedia
+                                    No. Rekening 1170984532
                                 </p>
                                 <p class="card-text" style="font-size: 0.9rem">
-                                    a.n Lorem ipsum dolor
+                                    a.n Taufik Baharsyah
                                 </p>
 
                                 <!-- Ubah juga data-nomer sesuai dengan no rekening -->
-                                <button class="btn btn-light btn-sm rounded-3" data-nomer="belom tersedia" onclick="util.salin(this)" autofocus>
+                                <button class="btn btn-light btn-sm rounded-3" data-nomer="1170984532" onclick="util.salin(this)" autofocus>
                                     Salin No. Rekening
                                 </button>
                             </div>
 
-                            <div class="col-5 card-body border rounded-4 shadow p-3 m-3" data-aos="fade-down" data-aos-duration="1500">
+                            <!-- <div class="col-5 card-body border rounded-4 shadow p-3 m-3" data-aos="fade-down" data-aos-duration="1500">
                                 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/BANK_BRI_logo.svg/640px-BANK_BRI_logo.svg.png" class="img-fluid w-50 rounded" alt="bri" />
 
                                 <p class="card-text mt-3 mb-0" style="font-size: 0.9rem">
@@ -366,17 +366,17 @@
                                 </p>
                                 <p class="card-text" style="font-size: 0.9rem">
                                     a.n Lorem ipsum dolor
-                                </p>
+                                </p> -->
 
-                                <!-- Ubah juga data-nomer sesuai dengan no rekening -->
-                                <button class="btn btn-light btn-sm rounded-3" data-nomer="belom tersedia" onclick="util.salin(this)" autofocus>
+                            <!-- Ubah juga data-nomer sesuai dengan no rekening -->
+                            <!-- <button class="btn btn-light btn-sm rounded-3" data-nomer="belom tersedia" onclick="util.salin(this)" autofocus>
                                     Salin No. Rekening
-                                </button>
-                            </div>
+                                </button> -->
                         </div>
                     </div>
                 </div>
             </div>
+        </div>
         </div>
 
         <!-- Ucapan -->
