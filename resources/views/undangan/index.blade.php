@@ -106,7 +106,7 @@
                 <div class="overflow-x-hidden">
                     <div data-aos="fade-right" data-aos-duration="2000">
                         <div class="img-crop border border-3 border-light shadow my-4 mx-auto">
-                            <img src="./assets/images/11.png" alt="cowo" onclick="util.modal(this)" />
+                            <img src="./assets/images/11.jpg" alt="cowo" onclick="util.modal(this)" />
                         </div>
                         <h1 class="font-esthetic" style="font-size: 3rem">Taufik Baharsyah</h1>
                         <p class="mt-3 mb-0" style="font-size: 1.25rem">Putra</p>
@@ -135,7 +135,7 @@
 
                     <div data-aos="fade-left" data-aos-duration="2000">
                         <div class="img-crop border border-3 border-light shadow my-4 mx-auto">
-                            <img src="./assets/images/12.png" alt="cewe" onclick="util.modal(this)" />
+                            <img src="./assets/images/12.jpg" alt="cewe" onclick="util.modal(this)" />
                         </div>
                         <h1 class="font-esthetic" style="font-size: 3rem">Citra Dwi Nur Afni</h1>
                         <p class="mt-3 mb-0" style="font-size: 1.25rem">Putri</p>
