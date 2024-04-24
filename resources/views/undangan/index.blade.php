@@ -109,7 +109,7 @@
                             <img src="./assets/images/11.jpg" alt="taufik" onclick="util.modal(this)" />
                         </div>
                         <h1 class="font-esthetic" style="font-size: 3rem">Taufik Baharsyah</h1>
-                        <p class="mt-3 mb-0" style="font-size: 1.25rem">Putra</p>
+                        <p class="mt-3 mb-0" style="font-size: 1.25rem">Putra Pertama</p>
                         <p class="mb-0">Bapak Mursihono & Ibu Supatmi</p>
                     </div>
 
@@ -137,8 +137,8 @@
                         <div class="img-crop border border-3 border-light shadow my-4 mx-auto">
                             <img src="./assets/images/12.jpg" alt="citra" onclick="util.modal(this)" />
                         </div>
-                        <h1 class="font-esthetic" style="font-size: 3rem">Citra Dwi Nur Afni</h1>
-                        <p class="mt-3 mb-0" style="font-size: 1.25rem">Putri</p>
+                        <h1 class="font-esthetic" style="font-size: 3rem">Citra Dwi Nur Afni Oktafiana</h1>
+                        <p class="mt-3 mb-0" style="font-size: 1.25rem">Putri Kedua</p>
                         <p class="mb-0">Bapak Yulianto & Ibu Surati</p>
                     </div>
                 </div>
