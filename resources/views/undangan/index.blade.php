@@ -50,7 +50,7 @@
                 </h1>
                 <p class="mb-0" style="font-size: 1.5rem">Selasa, 02 Juli 2024</p>
 
-                <a class="btn btn-outline-light btn-sm shadow rounded-pill px-3 my-2" target="_blank" href="https://www.google.com/maps/place/5%C2%B002'00.6%22S+105%C2%B018'37.1%22E/@-5.0335,105.3103056,17z/data=!3m1!4b1!4m4!3m3!8m2!3d-5.0335!4d105.3103056?entry=ttu">
+                <a class="btn btn-outline-light btn-sm shadow rounded-pill px-3 my-2" target="_blank" href="https://www.google.com/calendar/render?action=TEMPLATE&sf=true&output=xml&text=The%20Wedding%20Of%20Taufik%20And%20Citra&location=https://maps.app.goo.gl/8qdyLGZyiVqwzo2u7&details=The%20Wedding%20of%20Taufik%20and%20Citra%7C%2015%20Maret%202023%20%7C%20RT%20001%20RW%20001,%20Desa%20Saptomulyo,%20Kec.%20Kota%20Gajah,%20Kab.%20Lampung%20Tengah,%20Lampung%2034153%20%20%20%7C%2010.00%20-%2011.30%20WIB&dates=20240702T030000Z/20240424T043000Z">
                     <i class="fa-solid fa-calendar-check me-2"></i>Save The Date
                 </a>
 
