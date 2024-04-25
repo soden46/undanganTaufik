@@ -505,6 +505,9 @@
                     Taufik & Citra
                 </h1>
                 <div>
+                    <span>Kepada Yth Bapak/Ibu/Saudara/i</span>
+                </div>
+                <div>
                     <span>{{$parameters}}</span>
                 </div>
 
