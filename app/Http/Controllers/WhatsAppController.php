@@ -64,10 +64,8 @@ class WhatsAppController extends Controller
     public function handleWhatsAppParameter(Request $request)
     {
         // Ambil semua parameter dari URL
-        $parameters = $request->query();
+        $parameters = $request->query('to');
 
-
-        $value = str_replace('-', ' ', $parameters);
-        return view('undangan.handle', compact('value'));
+        return view('undangan.handle', compact('parameters'));
     }
 }
