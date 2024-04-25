@@ -510,7 +510,9 @@
                 <div>
                     <span>{{$parameters}}</span>
                 </div>
-
+                <div>
+                    <span>Kami Mengundang Anda Untuk Hadir Di Acara Pernikahan Kami</span>
+                </div>
                 <button type="button" class="btn btn-light shadow rounded-4 mt-4" onclick="util.buka(this)">
                     <i class="fa-solid fa-envelope-open me-2"></i>Buka Undangan
                 </button>
