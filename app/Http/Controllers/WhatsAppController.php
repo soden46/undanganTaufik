@@ -66,12 +66,14 @@ class WhatsAppController extends Controller
         // Ambil semua parameter dari URL
         $parameters = $request->query('to');
 
-        // Periksa apakah $parameters adalah array sebelum melakukan iterasi
-        if (is_array($parameters)) {
-            // Ubah tanda hubung menjadi spasi dalam setiap nilai parameter
-            foreach ($parameters as $value) {
-                $value = str_replace('-', ' ', $value);
-            }
+        // Periksa apakah $parameters adalah string sebelum melakukan pengolahan
+        if (is_string($parameters)) {
+            // Ubah tanda hubung menjadi spasi dalam nilai parameter
+            $parameters = str_replace(
+                ['-', '_', '.'],
+                ' ',
+                $parameters
+            );
         }
 
         return view('undangan.handle', compact('parameters'));
