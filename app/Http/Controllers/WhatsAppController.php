@@ -64,8 +64,7 @@ class WhatsAppController extends Controller
     public function handleWhatsAppParameter(Request $request)
     {
         $parameters = $request->all();
-        // Lakukan apa pun yang perlu Anda lakukan dengan parameter ini
-        // Misalnya, Anda dapat melakukan iterasi melalui array parameter dan melakukan operasi yang sesuai.
+
         return view('undangan.handle', ['parameters' => $parameters]);
     }
 }
