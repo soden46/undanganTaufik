@@ -41,7 +41,7 @@ class WhatsAppController extends Controller
 
         // Kirim pesan ke nomor penerima
 
-        $this->sendWhatsAppMessage($recipient, $message);
+        return redirect("https://wa.me/{$recipient}?text=" . urlencode($message));
 
 
         return back()->with('success', 'Berhasil Mengirim Whatsapp');
@@ -51,7 +51,7 @@ class WhatsAppController extends Controller
     private function sendWhatsAppMessage($recipient, $message)
     {
         // URL endpoint untuk mengirim pesan WhatsApp
-        $url = 'https://api.whatsapp.com/send?phone=' . $recipient . '&text=' . urlencode($message);
+        $url = 'https://wa.me/' . $recipient . '?text=' . $message;
 
         // Buat instance dari Guzzle HTTP Client
         $client = new Client();
