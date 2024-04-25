@@ -7,7 +7,7 @@ Route::get('/', function () {
     return view('undangan.index');
 });
 
-Route::get('/taufik-citra?to={eventName}', function ($eventName) {
+Route::get('/taufik-citra', function ($eventName) {
     return view('index', ['eventName' => $eventName]);
 })->where('eventName', '.*');
 
