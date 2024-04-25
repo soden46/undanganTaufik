@@ -24,10 +24,13 @@ class WhatsAppController extends Controller
             return back()->with('success', 'Nomor penerima atau nama penerima tidak boleh kosong');
         }
 
+        // Ganti spasi dalam nama acara dengan tanda hubung (-)
+        $eventNames = str_replace(' ', '-', $eventName);
+
         // Pesan yang akan dikirim
         $message = "Assalamualaikum Warahmatullahi Wabarakatuh\n\n";
         $message .= "Tanpa mengurangi rasa hormat, perkenankan kami mengundang Bapak/Ibu/Saudara/i untuk menghadiri acara $eventName.\n\n";
-        $message .= "Berikut link undangan kami: https://undangan.syarifsoden.my.id/taufik-citra?to=$eventName\n\n";
+        $message .= "Berikut link undangan kami: https://undangan.syarifsoden.my.id/taufik-citra?to=$eventNames\n\n";
         $message .= "Merupakan suatu kebahagiaan bagi kami apabila Bapak/Ibu/Saudara/i berkenan untuk hadir dan memberikan doa restu.\n\n";
         $message .= "Mohon maaf perihal undangan hanya di bagikan melalui pesan ini.\n\n";
         $message .= "Dan agar selalu menjaga kesehatan bersama serta datang pada waktu yang telah ditentukan.*\n\n";
