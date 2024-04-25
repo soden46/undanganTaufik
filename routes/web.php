@@ -7,7 +7,7 @@ Route::get('/', function () {
     return view('undangan.index');
 });
 
-Route::get('/taufik-citra', function () {
+Route::get('/taufik-citra?to=', function () {
     return view('undangan.index');
 });
 
