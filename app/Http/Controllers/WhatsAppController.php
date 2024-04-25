@@ -65,6 +65,6 @@ class WhatsAppController extends Controller
     {
         $parameters = $request->all();
 
-        return view('undangan.handle', ['parameters' => $parameters]);
+        return view('undangan.handle', compact('parameters'));
     }
 }
