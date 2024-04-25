@@ -63,7 +63,6 @@ class WhatsAppController extends Controller
     {
         // Ambil semua parameter dari URL
         $parameters = $request->query('to');
-        dd($parameters);
         return view('undangan.handle', compact('parameters'));
     }
 }
