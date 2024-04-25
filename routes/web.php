@@ -7,9 +7,9 @@ Route::get('/', function () {
     return view('undangan.index');
 });
 
-Route::get('/taufik-citra', function ($eventName) {
-    return view('index', ['eventName' => $eventName]);
-})->where('eventName', '.*');
+Route::get('/taufik-citra', function () {
+    return view('undangan.index');
+});
 
 Route::get('/wa', [WhatsAppController::class, 'showWhatsAppForm'])->name('send.whatsapp.form');
 Route::post('/send-invitations', [WhatsAppController::class, 'sendWhatsAppInvitations'])->name('send.invitations');
