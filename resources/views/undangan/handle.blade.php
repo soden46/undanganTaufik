@@ -504,13 +504,13 @@
                 <h1 class="font-esthetic my-4" style="font-size: 2.5rem">
                     Taufik & Citra
                 </h1>
-                <div>
+                <div class="mb-2">
                     <span>Kepada Yth Bapak/Ibu/Saudara/i</span>
                 </div>
                 <div>
                     <span>{{$parameters}}</span>
                 </div>
-                <div>
+                <div class="mt-2">
                     <span>Kami Mengundang Anda Untuk Hadir Di Acara Pernikahan Kami</span>
                 </div>
                 <button type="button" class="btn btn-light shadow rounded-4 mt-4" onclick="util.buka(this)">
