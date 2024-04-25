@@ -69,7 +69,7 @@ class WhatsAppController extends Controller
         // Periksa apakah $parameters adalah array sebelum melakukan iterasi
         if (is_array($parameters)) {
             // Ubah tanda hubung menjadi spasi dalam setiap nilai parameter
-            foreach ($parameters as &$value) {
+            foreach ($parameters as $value) {
                 $value = str_replace('-', ' ', $value);
             }
         }
