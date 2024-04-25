@@ -40,7 +40,7 @@ class WhatsAppController extends Controller
         }
 
         // Kirim pesan ke nomor penerima
-
+        return redirect("https://wa.me/{$recipient}?text=" . urlencode($message));
 
         return back()->with('success', 'Berhasil Mengirim Whatsapp');
     }
