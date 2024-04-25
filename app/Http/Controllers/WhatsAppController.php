@@ -66,8 +66,8 @@ class WhatsAppController extends Controller
         // Ambil semua parameter dari URL
         $parameters = $request->query('to');
 
-        // Gabungkan nilai parameter menjadi satu string dengan spasi sebagai pemisah
 
-        return view('undangan.handle', compact('parameters'));
+        $value = str_replace('-', ' ', $parameters);
+        return view('undangan.handle', compact('value'));
     }
 }
