@@ -64,7 +64,11 @@ class WhatsAppController extends Controller
     public function handleWhatsAppParameter(Request $request)
     {
         $parameters = $request->query();
-        dd($parameters);
+
+        // Ubah tanda penghubung menjadi spasi
+        foreach ($parameters as &$value) {
+            $value = str_replace('-', ' ', $value);
+        }
 
         return view('undangan.handle', compact('parameters'));
     }
