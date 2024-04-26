@@ -48,7 +48,7 @@
                 <h1 class="font-esthetic my-4" style="font-size: 3rem">
                     Taufik & Citra
                 </h1>
-                <p class="mb-0" style="font-size: 1.5rem">Senin, 01 Juli 2024</p>
+                <p class="mb-0" style="font-size: 1.5rem">Selasa, 01 Juli 2024</p>
 
                 <a class="btn btn-outline-light btn-sm shadow rounded-pill px-3 my-2" target="_blank" href="https://www.google.com/calendar/render?action=TEMPLATE&sf=true&output=xml&text=The%20Wedding%20Of%20Taufik%20And%20Citra&location=https://maps.app.goo.gl/8qdyLGZyiVqwzo2u7&details=The%20Wedding%20of%20Taufik%20and%20Citra%7C%2015%20Maret%202023%20%7C%20RT%20001%20RW%20001,%20Desa%20Saptomulyo,%20Kec.%20Kota%20Gajah,%20Kab.%20Lampung%20Tengah,%20Lampung%2034153%20%20%20%7C%2010.00%20-%2011.30%20WIB&dates=20240702T030000Z/20240424T043000Z">
                     <i class="fa-solid fa-calendar-check me-2"></i>Save The Date
@@ -504,16 +504,23 @@
                 <h1 class="font-esthetic my-4" style="font-size: 2.5rem">
                     Taufik & Citra
                 </h1>
+                @if($parameters != '')
+                <div id="nama-tamu">
+                    <div class="mb-4">
+                        <span>Kepada Yth Bapak/Ibu/Saudara/i</span>
+                    </div>
+                    <div>
+                        <span>{{$parameters}}</span>
+                    </div>
+                    <div class="mt-4">
+                        <span>Kami Mengundang Anda Untuk Hadir Di Acara Pernikahan Kami</span>
+                    </div>
+                </div>
+                @else
                 <div id="nama-tamu"></div>
-                <div class="mb-4">
-                    <span>Kepada Yth Bapak/Ibu/Saudara/i</span>
-                </div>
-                <div>
-                    <span>{{$parameters}}</span>
-                </div>
-                <div class="mt-4">
-                    <span>Kami Mengundang Anda Untuk Hadir Di Acara Pernikahan Kami</span>
-                </div>
+                @endif
+
+
                 <button type="button" class="btn btn-light shadow rounded-4 mt-4" onclick="util.buka(this)">
                     <i class="fa-solid fa-envelope-open me-2"></i>Buka Undangan
                 </button>
