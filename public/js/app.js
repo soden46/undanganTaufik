@@ -211,10 +211,6 @@ const util = (() => {
         AOS.init();
         audio.play();
 
-        if (localStorage.getItem('alertClosed')) {
-            document.getElementById('alertDiv').style.display = 'none';
-        }
-
         opacity('welcome');
         document.getElementById('tombol-musik').style.display = 'block';
         timer();
@@ -227,11 +223,6 @@ const util = (() => {
         animation();
     };
 
-    const show = () => {
-        tamu();
-        opacity('loading');
-        window.scrollTo(0, 0);
-    };
 
     const animate = (svg, timeout, classes) => {
         let handler = null;
