@@ -42,7 +42,7 @@ const request = (method, path) => {
         }
     };
 
-    if (url.slice(-1) == '/') {
+    if (url.slice(-1) == '/' && url.slice(-1) == '/taufik-citra') {
         url = url.slice(0, -1);
     }
 
