@@ -4,17 +4,17 @@ html {
 }
 
 body {
-    font-family: 'Josefin Sans', sans-serif !important;
+    font-family: "Josefin Sans", sans-serif !important;
     padding: 0 !important;
 }
 
 .font-esthetic {
-    font-family: 'Sacramento', cursive !important;
+    font-family: "Sacramento", cursive !important;
     color: #ffffff !important;
 }
 
 .font-arabic {
-    font-family: 'Noto Naskh Arabic', serif !important;
+    font-family: "Noto Naskh Arabic", serif !important;
     color: #ffffff !important;
 }
 
@@ -26,7 +26,7 @@ body {
     border-radius: 50%;
 }
 
-.img-crop>img {
+.img-crop > img {
     display: inline;
     margin: 0 auto;
     height: auto;
@@ -78,7 +78,7 @@ body {
     }
 }
 
-.mouse-animation>.scroll-animation {
+.mouse-animation > .scroll-animation {
     width: 0.25rem;
     height: 0.625rem;
     border-radius: 25%;
