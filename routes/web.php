@@ -3,9 +3,7 @@
 use App\Http\Controllers\WhatsAppController;
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', function () {
-    return view('undangan.index');
-});
+Route::get('/', [WhatsAppController::class, 'handleWhatsAppParameter']);
 
 Route::get('/taufik-citra', [WhatsAppController::class, 'handleWhatsAppParameter'])->name('handle.whatsapp.parameter');
 
