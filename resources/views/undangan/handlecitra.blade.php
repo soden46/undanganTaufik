@@ -50,7 +50,7 @@
                 </h1>
                 <p class="mb-0" style="font-size: 1.5rem">Selasa, 01 Juli 2024</p>
 
-                <a class="btn btn-outline-light btn-sm shadow rounded-pill px-3 my-2" target="_blank" href="https://www.google.com/calendar/render?action=TEMPLATE&sf=true&output=xml&text=The%20Wedding%20Of%20Taufik%20And%20Citra&location=https://maps.app.goo.gl/8qdyLGZyiVqwzo2u7&details=The%20Wedding%20of%20Taufik%20and%20Citra%7C%2015%20Maret%202023%20%7C%20RT%20001%20RW%20001,%20Desa%20Saptomulyo,%20Kec.%20Kota%20Gajah,%20Kab.%20Lampung%20Tengah,%20Lampung%2034153%20%20%20%7C%2010.00%20-%2011.30%20WIB&dates=20240702T030000Z/20240424T043000Z">
+                <a class="btn btn-outline-light btn-sm shadow rounded-pill px-3 my-2" target="_blank" href="https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20240701T150000Z%2F20240701T163000Z&details=The%20Wedding%20of%20Taufik%20and%20Citra%7C%2001%20Juli%202024%20%7C%20Jl.%20Dewi%20Sartika%20No.67%2C%20Banjarsari%2C%20Kec.%20Metro%20Utara%2C%20Kota%20Metro%2C%20Lampung%2034114%20%20%20%7C%2010.00%20-%2011.30%20WIB&location=https%3A%2F%2Fmaps.app.goo.gl%2FapHBhxWzxsRfzRs17&text=The%20Wedding%20Of%20Taufik%20And%20Citra">
                     <i class="fa-solid fa-calendar-check me-2"></i>Save The Date
                 </a>
 
@@ -243,13 +243,13 @@
                     </div>
 
                     <div class="py-2" data-aos="fade-up" data-aos-duration="1500">
-                        <a href="https://maps.app.goo.gl/z3XkHb9a9WiqqF2Y8" target="_blank" class="btn btn-outline-light btn-sm rounded-pill shadow-sm mb-2 px-3">
+                        <a href="https://maps.app.goo.gl/apHBhxWzxsRfzRs17" target="_blank" class="btn btn-outline-light btn-sm rounded-pill shadow-sm mb-2 px-3">
                             <i class="fa-solid fa-map-location-dot me-2"></i>Lihat Google
                             Maps
                         </a>
 
                         <p class="mb-0 mt-1 mx-1 pb-4" style="font-size: 0.9rem">
-                            RT 001 RW 001, Desa Saptomulyo, Kec. Kota Gajah, Kab. Lampung Tengah, Lampung 34153
+                            Jl. Dewi Sartika No.67, Banjarsari, Kec. Metro Utara, Kota Metro, Lampung 34114
                         </p>
                     </div>
                 </div>
