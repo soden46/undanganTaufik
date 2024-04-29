@@ -276,7 +276,7 @@
                     <div id="carousel-foto-satu" data-aos="fade-up" data-aos-duration="1500" class="carousel slide" data-bs-ride="carousel">
                         <div class="carousel-inner rounded-4">
                             <div class="carousel-item active">
-                                <div style="width: 100%"><iframe width="100%" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d15897.726769369583!2d105.29182587777996!3d-5.033527740255039!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNcKwMDInMDAuNyJTIDEwNcKwMTgnMzcuMCJF!5e0!3m2!1sen!2sus!4v1713891935669!5m2!1sen!2sus"><a href="https://www.gps.ie/">gps tracker sport</a></iframe></div>
+                                <div style="width: 100%"><iframe width="100%" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.app.goo.gl/apHBhxWzxsRfzRs17"><a href="https://www.gps.ie/">gps tracker sport</a></iframe></div>
                             </div>
                         </div>
                     </div>
