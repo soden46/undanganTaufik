@@ -4,7 +4,7 @@
         @if(session('success'))
         <p>{{ session('success') }}</p>
         @endif
-        <form method="POST" action="{{ route('csend.invitations.citra') }}">
+        <form method="POST" action="{{ route('send.invitations.citra') }}">
             @csrf
             <label for="recipients">Nomor Penerima:</label><br>
             <input type="text" id="recipients" name="recipients" required><br>
