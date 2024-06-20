@@ -64,8 +64,8 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic&display=swap" />
 
     <!-- App -->
-    <link rel="stylesheet" href="{{css/app.css}}" />
-    <script src="{{ js/app.js}}" defer></script>
+    <link rel="stylesheet" href="{{asset('css/app.css')}}" />
+    <script src="{{ asset('js/app.js')}}" defer></script>
 </head>
 
 <body style="overflow-y: hidden">
