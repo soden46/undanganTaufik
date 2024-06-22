@@ -39,7 +39,7 @@
                     Undangan Pernikahan
                 </h1>
 
-                <div class="py-4" data-aos="fade-up" data-aos-duration="1000">
+                <div class="py-4">
                     <div class="img-crop border border-3 border-light shadow mx-auto">
                         <img src="{{ asset('assets/images/ibuk2.webp')}}" alt="bg" class="w-100" onclick="util.modal(this)" loading="lazy"/>
                     </div>
