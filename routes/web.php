@@ -16,7 +16,7 @@ Route::get('/taufik-citra-from-citra', [WhatsAppController::class, 'handleWhatsA
 Route::get('/citra/wa', [WhatsAppController::class, 'showWhatsAppFormCitra'])->name('send.whatsapp.form.citra');
 Route::post('/citra/send-invitations', [WhatsAppController::class, 'sendWhatsAppInvitationsCitra'])->name('send.invitations.citra');
 
-Route::get('/supatmi', [WhatsAppController::class, 'handleWhatsAppParameterPatmi'])->name('handle.whatsapp.parameter.patmi');
-Route::get('/taufik-citra-from-supatmi', [WhatsAppController::class, 'handleWhatsAppParameterPatmi'])->name('handle.whatsapp.parameter.patmi');
-Route::get('/supatmi/wa', [WhatsAppController::class, 'showWhatsAppFormPatmi'])->name('send.whatsapp.form.patmi');
-Route::post('/supatmi/send-invitations', [WhatsAppController::class, 'sendWhatsAppInvitationsPatmi'])->name('send.invitations.patmi');
+Route::get('/supatmi', [WhatsAppController::class, 'handleWhatsAppParameterPatmi'])->name('handle.whatsapp.parameter.supatmi');
+Route::get('/taufik-citra-from-supatmi', [WhatsAppController::class, 'handleWhatsAppParameterPatmi'])->name('handle.whatsapp.parameter.supatmi');
+Route::get('/supatmi/wa', [WhatsAppController::class, 'showWhatsAppFormPatmi'])->name('send.whatsapp.form.supatmi');
+Route::post('/supatmi/send-invitations', [WhatsAppController::class, 'sendWhatsAppInvitationsPatmi'])->name('send.invitations.supatmi');

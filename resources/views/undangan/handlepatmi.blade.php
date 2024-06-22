@@ -41,12 +41,12 @@
 
                 <div class="py-4">
                     <div class="img-crop border border-3 border-light shadow mx-auto">
-                        <img src="./assets/images/10.jpg" alt="bg" class="w-100" onclick="util.modal(this)" />
+                        <img src="./assets/images/ibuk2.jpeg" alt="bg" class="w-100" onclick="util.modal(this)" />
                     </div>
                 </div>
 
                 <h1 class="font-esthetic my-4" style="font-size: 3rem">
-                    Taufik & Citra
+                    Keluarga Bapak Mursihono & Ibu Supatmi
                 </h1>
                 <p class="mb-0" style="font-size: 1.5rem">Selasa, 02 Juli 2024</p>
 
@@ -329,55 +329,6 @@
         </svg>
 
         <!-- Hadiah -->
-        <div class="container">
-            <div class="py-4">
-                <div class="text-center">
-                    <h1 class="font-esthetic mt-0 mb-3" style="font-size: 3rem">
-                        Love Gift
-                    </h1>
-
-                    <p class="mb-1" style="font-size: 0.9rem">
-                        Tanpa mengurangi rasa hormat, bagi anda yang ingin memberikan
-                        tanda kasih untuk kami, dapat melalui :
-                    </p>
-
-                    <div class="overflow-x-hidden">
-                        <div class="row justify-content-center">
-                            <div class="col-5 card-body border rounded-4 shadow p-3 m-3" data-aos="fade-down" data-aos-duration="1500">
-                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Bank_Central_Asia.svg/799px-Bank_Central_Asia.svg.png" class="img-fluid w-50 rounded" alt="bca" />
-
-                                <p class="card-text mt-3 mb-0" style="font-size: 0.9rem">
-                                    No. Rekening 1170984532
-                                </p>
-                                <p class="card-text" style="font-size: 0.9rem">
-                                    a.n Taufik Baharsyah
-                                </p>
-
-                                <!-- Ubah juga data-nomer sesuai dengan no rekening -->
-                                <button class="btn btn-light btn-sm rounded-3" data-nomer="1170984532" onclick="util.salin(this)" autofocus>
-                                    Salin No. Rekening
-                                </button>
-                            </div>
-
-                            <!-- <div class="col-5 card-body border rounded-4 shadow p-3 m-3" data-aos="fade-down" data-aos-duration="1500">
-                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/BANK_BRI_logo.svg/640px-BANK_BRI_logo.svg.png" class="img-fluid w-50 rounded" alt="bri" />
-
-                                <p class="card-text mt-3 mb-0" style="font-size: 0.9rem">
-                                    No. Rekening belom tersedia
-                                </p>
-                                <p class="card-text" style="font-size: 0.9rem">
-                                    a.n Lorem ipsum dolor
-                                </p> -->
-
-                            <!-- Ubah juga data-nomer sesuai dengan no rekening -->
-                            <!-- <button class="btn btn-light btn-sm rounded-3" data-nomer="belom tersedia" onclick="util.salin(this)" autofocus>
-                                    Salin No. Rekening
-                                </button> -->
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
         </div>
 
         <!-- Ucapan -->
