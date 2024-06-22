@@ -30,7 +30,7 @@
  <meta name="color-scheme" content="dark" />
  <link rel="canonical" href="https://udangan.syarifsoden.my.id/" />
  <link rel="shortcut icon" type="image/x-icon" href="https://udangan.syarifsoden.my.id/favicon.ico" />
- <link rel="apple-touch-icon" sizes="192x192" type="image/png" href="https://udangan.syarifsoden.my.id/assets/images/icon-192x192.png" />
+ <link rel="apple-touch-icon" sizes="192x192" type="image/png" href="https://udangan.syarifsoden.my.id/assets/images/icon-192x192.webp" />
  <link rel="icon" type="image/x-icon" href="https://udangan.syarifsoden.my.id/favicon.ico" />
 
  <!-- Preconnect and preload CDN -->

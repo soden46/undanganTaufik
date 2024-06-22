@@ -41,7 +41,7 @@
 
                 <div class="py-4">
                     <div class="img-crop border border-3 border-light shadow mx-auto">
-                        <img src="./assets/images/ibuk2.jpeg" alt="bg" class="w-100" onclick="util.modal(this)" />
+                        <img src="./assets/images/ibuk2.webp" alt="bg" class="w-100" onclick="util.modal(this)" />
                     </div>
                 </div>
 
@@ -503,7 +503,7 @@
             <div class="modal-content">
                 <div class="modal-body p-0">
                     <div class="d-flex justify-content-center align-items-center" style="height: 100%">
-                        <img src="./assets/images/bg.jpeg" class="w-100" alt="foto" id="show-modal-image" />
+                        <img src="./assets/images/bg.webp" class="w-100" alt="foto" id="show-modal-image" />
                     </div>
                 </div>
             </div>

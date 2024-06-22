@@ -41,7 +41,7 @@
 
                 <div class="py-4">
                     <div class="img-crop border border-3 border-light shadow mx-auto">
-                        <img src="./assets/images/10.jpg" alt="bg" class="w-100" onclick="util.modal(this)" />
+                        <img src="./assets/images/10.webp" alt="bg" class="w-100" onclick="util.modal(this)" />
                     </div>
                 </div>
 
@@ -106,7 +106,7 @@
                 <div class="overflow-x-hidden">
                     <div data-aos="fade-right" data-aos-duration="2000">
                         <div class="img-crop border border-3 border-light shadow my-4 mx-auto">
-                            <img src="./assets/images/11.jpg" alt="taufik" onclick="util.modal(this)" />
+                            <img src="./assets/images/11.webp" alt="taufik" onclick="util.modal(this)" />
                         </div>
                         <h1 class="font-esthetic" style="font-size: 3rem">Taufik Baharsyah</h1>
                         <p class="mt-3 mb-0" style="font-size: 1.25rem">Putra Pertama</p>
@@ -135,7 +135,7 @@
 
                     <div data-aos="fade-left" data-aos-duration="2000">
                         <div class="img-crop border border-3 border-light shadow my-4 mx-auto">
-                            <img src="./assets/images/12.jpg" alt="citra" onclick="util.modal(this)" />
+                            <img src="./assets/images/12.webp" alt="citra" onclick="util.modal(this)" />
                         </div>
                         <h1 class="font-esthetic" style="font-size: 3rem">Citra Dwi Nur Afni Oktafiana</h1>
                         <p class="mt-3 mb-0" style="font-size: 1.25rem">Putri Kedua</p>
@@ -299,13 +299,13 @@
 
                         <div class="carousel-inner rounded-4">
                             <div class="carousel-item active">
-                                <img src="./assets/images/1.jpg" alt="gambar 1" class="d-block w-100" onclick="util.modal(this)" />
+                                <img src="./assets/images/1.webp" alt="gambar 1" class="d-block w-100" onclick="util.modal(this)" />
                             </div>
                             <div class="carousel-item">
-                                <img src="./assets/images/3.jpg" alt="gambar 2" class="d-block w-100" onclick="util.modal(this)" />
+                                <img src="./assets/images/3.webp" alt="gambar 2" class="d-block w-100" onclick="util.modal(this)" />
                             </div>
                             <div class="carousel-item">
-                                <img src="./assets/images/4.jpg" alt="gambar 3" class="d-block w-100" onclick="util.modal(this)" />
+                                <img src="./assets/images/4.webp" alt="gambar 3" class="d-block w-100" onclick="util.modal(this)" />
                             </div>
                         </div>
 
@@ -498,7 +498,7 @@
                 </h1>
 
                 <div class="img-crop border border-3 border-light shadow mb-4 mx-auto">
-                    <img src="./assets/images/10.jpg" alt="bg" />
+                    <img src="./assets/images/10.webp" alt="bg" />
                 </div>
 
                 <h1 class="font-esthetic my-4" style="font-size: 2.5rem">
