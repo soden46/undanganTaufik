@@ -89,7 +89,7 @@ class WhatsAppController extends Controller
         $message = "Assalamualaikum Warahmatullahi Wabarakatuh\n\n";
         $message .= "Tanpa mengurangi rasa hormat, perkenankan kami mengundang Bapak/Ibu/Saudara/i $eventName untuk menghadiri acara.\n\n";
         $message .= "Pernikahan Anak Kami\n\n";
-        $message .= "Berikut link undangan kami: https://undangan.syarifsoden.my.id/citra/taufik-citra-from-citra?to=$eventNames\n\n";
+        $message .= "Berikut link undangan kami: https://undangan.syarifsoden.my.id/taufik-citra-from-supatmi?to=$eventNames\n\n";
         $message .= "Merupakan suatu kebahagiaan bagi kami apabila Bapak/Ibu/Saudara/i berkenan untuk hadir dan memberikan doa restu.\n\n";
         $message .= "Mohon maaf perihal undangan hanya di bagikan melalui pesan ini.\n\n";
         $message .= "Terima kasih banyak atas perhatiannya.\n\n";
@@ -146,7 +146,7 @@ class WhatsAppController extends Controller
         // Pesan yang akan dikirim
         $message = "Assalamualaikum Warahmatullahi Wabarakatuh\n\n";
         $message .= "Tanpa mengurangi rasa hormat, perkenankan kami mengundang Bapak/Ibu/Saudara/i $eventName untuk menghadiri acara .\n\n";
-        $message .= "Berikut link undangan kami: https://undangan.syarifsoden.my.id/citra/taufik-citra-from-citra?to=$eventNames\n\n";
+        $message .= "Berikut link undangan kami: https://undangan.syarifsoden.my.id/taufik-citra-from-citra?to=$eventNames\n\n";
         $message .= "Merupakan suatu kebahagiaan bagi kami apabila Bapak/Ibu/Saudara/i berkenan untuk hadir dan memberikan doa restu.\n\n";
         $message .= "Mohon maaf perihal undangan hanya di bagikan melalui pesan ini.\n\n";
         $message .= "Dan agar selalu menjaga kesehatan bersama serta datang pada waktu yang telah ditentukan.*\n\n";
