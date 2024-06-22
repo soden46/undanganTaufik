@@ -39,7 +39,7 @@
                     Undangan Pernikahan
                 </h1>
 
-                <div class="py-4" data-aos="fade-down" data-aos-duration="2000">
+                <div class="py-4" data-aos="fade-down" data-aos-duration="1000">
                     <div class="img-crop border border-3 border-light shadow mx-auto">
                         <img src="./assets/images/ibuk2.webp" alt="bg" class="w-100" onclick="util.modal(this)" loading="lazy"/>
                     </div>
@@ -91,7 +91,7 @@
 
                 <p class="pb-3 px-3">
                     Tanpa mengurangi rasa hormat. Kami mengundang Bapak/Ibu/Saudara/i
-                    serta kerabat sekalian untuk menghadiri acara pernikahan kami:
+                    serta kerabat sekalian untuk menghadiri acara pernikahan Anak kami:
                 </p>
 
                 <!-- Love animation -->
