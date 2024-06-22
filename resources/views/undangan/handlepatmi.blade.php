@@ -41,7 +41,7 @@
 
                 <div class="py-4">
                     <div class="img-crop border border-3 border-light shadow mx-auto">
-                        <img src="{{ asset('assets/images/ibuk2.webp')}}" alt="bg" class="w-100" onclick="util.modal(this)" loading="lazy"/>
+                        <img src="./assets/images/ibuk2.jpeg" alt="bg" class="w-100" onclick="util.modal(this)" />
                     </div>
                 </div>
 
@@ -91,7 +91,7 @@
 
                 <p class="pb-3 px-3">
                     Tanpa mengurangi rasa hormat. Kami mengundang Bapak/Ibu/Saudara/i
-                    serta kerabat sekalian untuk menghadiri acara pernikahan Anak kami:
+                    serta kerabat sekalian untuk menghadiri acara pernikahan kami:
                 </p>
 
                 <!-- Love animation -->
@@ -106,7 +106,7 @@
                 <div class="overflow-x-hidden">
                     <div data-aos="fade-right" data-aos-duration="2000">
                         <div class="img-crop border border-3 border-light shadow my-4 mx-auto">
-                            <img src="{{ asset('assets/images/11.webp')}}" alt="taufik" onclick="util.modal(this)" loading="lazy"/>
+                            <img src="./assets/images/11.webp" alt="taufik" onclick="util.modal(this)" />
                         </div>
                         <h1 class="font-esthetic" style="font-size: 3rem">Taufik Baharsyah</h1>
                         <p class="mt-3 mb-0" style="font-size: 1.25rem">Putra Pertama</p>
@@ -135,7 +135,7 @@
 
                     <div data-aos="fade-left" data-aos-duration="2000">
                         <div class="img-crop border border-3 border-light shadow my-4 mx-auto">
-                            <img src="{{ asset('assets/images/12.webp')}}" alt="citra" onclick="util.modal(this)" loading="lazy"/>
+                            <img src="./assets/images/12.webp" alt="citra" onclick="util.modal(this)" />
                         </div>
                         <h1 class="font-esthetic" style="font-size: 3rem">Citra Dwi Nur Afni Oktafiana</h1>
                         <p class="mt-3 mb-0" style="font-size: 1.25rem">Putri Kedua</p>
@@ -243,7 +243,7 @@
                     </div>
 
                     <div class="py-2" data-aos="fade-up" data-aos-duration="1500">
-                        <a href="https://maps.app.goo.gl/z3XkHb9a9WiqqF2Y8" target="_blank" class="btn btn-outline-light btn-sm rounded-pill shadow-sm mb-2 px-3" loading="lazy">
+                        <a href="https://maps.app.goo.gl/z3XkHb9a9WiqqF2Y8" target="_blank" class="btn btn-outline-light btn-sm rounded-pill shadow-sm mb-2 px-3">
                             <i class="fa-solid fa-map-location-dot me-2"></i>Lihat Google
                             Maps
                         </a>
@@ -276,7 +276,7 @@
                     <div id="carousel-foto-satu" data-aos="fade-up" data-aos-duration="1500" class="carousel slide" data-bs-ride="carousel">
                         <div class="carousel-inner rounded-4">
                             <div class="carousel-item active">
-                                <div style="width: 100%"><iframe width="100%" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d15897.726769369583!2d105.29182587777996!3d-5.033527740255039!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNcKwMDInMDAuNyJTIDEwNcKwMTgnMzcuMCJF!5e0!3m2!1sen!2sus!4v1713891935669!5m2!1sen!2sus" loading="lazy"><a href="https://www.gps.ie/">gps tracker sport</a></iframe></div>
+                                <div style="width: 100%"><iframe width="100%" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d15897.726769369583!2d105.29182587777996!3d-5.033527740255039!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNcKwMDInMDAuNyJTIDEwNcKwMTgnMzcuMCJF!5e0!3m2!1sen!2sus!4v1713891935669!5m2!1sen!2sus"><a href="https://www.gps.ie/">gps tracker sport</a></iframe></div>
                             </div>
                         </div>
                     </div>
@@ -299,13 +299,13 @@
 
                         <div class="carousel-inner rounded-4">
                             <div class="carousel-item active">
-                                <img src="{{ asset('assets/images/1.webp')}}" alt="gambar 1" class="d-block w-100" onclick="util.modal(this)" loading="lazy"/>
+                                <img src="./assets/images/1.webp" alt="gambar 1" class="d-block w-100" onclick="util.modal(this)" />
                             </div>
                             <div class="carousel-item">
-                                <img src="{{ asset('assets/images/3.webp')}}" alt="gambar 2" class="d-block w-100" onclick="util.modal(this)" loading="lazy"/>
+                                <img src="./assets/images/3.webp" alt="gambar 2" class="d-block w-100" onclick="util.modal(this)" />
                             </div>
                             <div class="carousel-item">
-                                <img src="{{ asset('assets/images/4.webp')}}" alt="gambar 3" class="d-block w-100" onclick="util.modal(this)" loading="lazy"/>
+                                <img src="./assets/images/4.webp" alt="gambar 3" class="d-block w-100" onclick="util.modal(this)" />
                             </div>
                         </div>
 
@@ -449,7 +449,7 @@
                 </h1>
 
                 <div class="img-crop border border-3 border-light shadow mb-4 mx-auto">
-                    <img src="{{ asset('assets/images/10.webp')}}" alt="bg" loading="lazy"/>
+                    <img src="./assets/images/10.webp" alt="bg" />
                 </div>
 
                 <h1 class="font-esthetic my-4" style="font-size: 2.5rem">
@@ -473,7 +473,7 @@
     </div>
 
     <!-- Audio Button -->
-    <button type="button" id="tombol-musik" style="display: none" class="btn btn-light btn-sm rounded-circle btn-music" onclick="util.music(this)" data-status="true" data-url="{{ asset('assets/music/sound.mp3')}}">
+    <button type="button" id="tombol-musik" style="display: none" class="btn btn-light btn-sm rounded-circle btn-music" onclick="util.music(this)" data-status="true" data-url="./assets/music/sound.mp3">
         <i class="fa-solid fa-circle-pause spin-button"></i>
     </button>
 
@@ -481,7 +481,7 @@
     <div class="loading-page" id="loading" style="opacity: 1;">
         <div class="d-flex justify-content-center align-items-center" style="height: 100vh !important;">
             <div class="text-center w-75">
-                <img class="img-fluid mb-3" src="{{ asset('assets/images/icon-192x192.webp')}}" alt="icon" style="width: 3.5rem;" loading="lazy">
+                <img class="img-fluid mb-3" src="./assets/images/icon-192x192.png" alt="icon" style="width: 3.5rem;">
                 <div class="progress" role="progressbar" style="height: 0.5rem;">
                     <div class="progress-bar" id="bar" style="width: 0%"></div>
                 </div>
@@ -503,7 +503,7 @@
             <div class="modal-content">
                 <div class="modal-body p-0">
                     <div class="d-flex justify-content-center align-items-center" style="height: 100%">
-                        <img src="{{ asset('assets/images/bg.webp')}}" class="w-100" alt="foto" id="show-modal-image" loading="lazy"/>
+                        <img src="./assets/images/bg.jpeg" class="w-100" alt="foto" id="show-modal-image" />
                     </div>
                 </div>
             </div>
