@@ -106,7 +106,7 @@
                 <div class="overflow-x-hidden">
                     <div data-aos="fade-right" data-aos-duration="2000">
                         <div class="img-crop border border-3 border-light shadow my-4 mx-auto">
-                            <img src="./assets/images/11.webp" alt="taufik" onclick="util.modal(this)" />
+                            <img src="./assets/images/11.webp" alt="taufik" onclick="util.modal(this)" loading="lazy"/>
                         </div>
                         <h1 class="font-esthetic" style="font-size: 3rem">Taufik Baharsyah</h1>
                         <p class="mt-3 mb-0" style="font-size: 1.25rem">Putra Pertama</p>
@@ -135,7 +135,7 @@
 
                     <div data-aos="fade-left" data-aos-duration="2000">
                         <div class="img-crop border border-3 border-light shadow my-4 mx-auto">
-                            <img src="./assets/images/12.webp" alt="citra" onclick="util.modal(this)" />
+                            <img src="./assets/images/12.webp" alt="citra" onclick="util.modal(this)" loading="lazy"/>
                         </div>
                         <h1 class="font-esthetic" style="font-size: 3rem">Citra Dwi Nur Afni Oktafiana</h1>
                         <p class="mt-3 mb-0" style="font-size: 1.25rem">Putri Kedua</p>
@@ -243,7 +243,7 @@
                     </div>
 
                     <div class="py-2" data-aos="fade-up" data-aos-duration="1500">
-                        <a href="https://maps.app.goo.gl/z3XkHb9a9WiqqF2Y8" target="_blank" class="btn btn-outline-light btn-sm rounded-pill shadow-sm mb-2 px-3">
+                        <a href="https://maps.app.goo.gl/z3XkHb9a9WiqqF2Y8" target="_blank" class="btn btn-outline-light btn-sm rounded-pill shadow-sm mb-2 px-3" loading="lazy">
                             <i class="fa-solid fa-map-location-dot me-2"></i>Lihat Google
                             Maps
                         </a>
@@ -299,13 +299,13 @@
 
                         <div class="carousel-inner rounded-4">
                             <div class="carousel-item active">
-                                <img src="./assets/images/1.webp" alt="gambar 1" class="d-block w-100" onclick="util.modal(this)" />
+                                <img src="./assets/images/1.webp" alt="gambar 1" class="d-block w-100" onclick="util.modal(this)" loading="lazy"/>
                             </div>
                             <div class="carousel-item">
-                                <img src="./assets/images/3.webp" alt="gambar 2" class="d-block w-100" onclick="util.modal(this)" />
+                                <img src="./assets/images/3.webp" alt="gambar 2" class="d-block w-100" onclick="util.modal(this)" loading="lazy"/>
                             </div>
                             <div class="carousel-item">
-                                <img src="./assets/images/4.webp" alt="gambar 3" class="d-block w-100" onclick="util.modal(this)" />
+                                <img src="./assets/images/4.webp" alt="gambar 3" class="d-block w-100" onclick="util.modal(this)" loading="lazy"/>
                             </div>
                         </div>
 
@@ -344,7 +344,7 @@
                     <div class="overflow-x-hidden">
                         <div class="row justify-content-center">
                             <div class="col-5 card-body border rounded-4 shadow p-3 m-3" data-aos="fade-down" data-aos-duration="1500">
-                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Bank_Central_Asia.svg/799px-Bank_Central_Asia.svg.png" class="img-fluid w-50 rounded" alt="bca" />
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Bank_Central_Asia.svg/799px-Bank_Central_Asia.svg.png" class="img-fluid w-50 rounded" alt="bca" loading="lazy"/>
 
                                 <p class="card-text mt-3 mb-0" style="font-size: 0.9rem">
                                     No. Rekening 1170984532
@@ -498,7 +498,7 @@
                 </h1>
 
                 <div class="img-crop border border-3 border-light shadow mb-4 mx-auto">
-                    <img src="./assets/images/10.webp" alt="bg" />
+                    <img src="./assets/images/10.webp" alt="bg" loading="lazy"/>
                 </div>
 
                 <h1 class="font-esthetic my-4" style="font-size: 2.5rem">
@@ -530,7 +530,7 @@
     <div class="loading-page" id="loading" style="opacity: 1;">
         <div class="d-flex justify-content-center align-items-center" style="height: 100vh !important;">
             <div class="text-center w-75">
-                <img class="img-fluid mb-3" src="./assets/images/icon-192x192.webp" alt="icon" style="width: 3.5rem;">
+                <img class="img-fluid mb-3" src="./assets/images/icon-192x192.webp" alt="icon" style="width: 3.5rem;" loading="lazy">
                 <div class="progress" role="progressbar" style="height: 0.5rem;">
                     <div class="progress-bar" id="bar" style="width: 0%"></div>
                 </div>
@@ -552,7 +552,7 @@
             <div class="modal-content">
                 <div class="modal-body p-0">
                     <div class="d-flex justify-content-center align-items-center" style="height: 100%">
-                        <img src="./assets/images/bg.webp" class="w-100" alt="foto" id="show-modal-image" />
+                        <img src="./assets/images/bg.webp" class="w-100" alt="foto" id="show-modal-image" loading="lazy"/>
                     </div>
                 </div>
             </div>

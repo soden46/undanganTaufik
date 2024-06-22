@@ -498,7 +498,7 @@
                 </h1>
 
                 <div class="img-crop border border-3 border-light shadow mb-4 mx-auto">
-                    <img src="./assets/images/10.webp" alt="bg" />
+                    <img src="./assets/images/10.webp" alt="bg" loading="lazy"/>
                 </div>
 
                 <h1 class="font-esthetic my-4" style="font-size: 2.5rem">
@@ -537,7 +537,7 @@
     <div class="loading-page" id="loading" style="opacity: 1;">
         <div class="d-flex justify-content-center align-items-center" style="height: 100vh !important;">
             <div class="text-center w-75">
-                <img class="img-fluid mb-3" src="./assets/images/icon-192x192.webp" alt="icon" style="width: 3.5rem;">
+                <img class="img-fluid mb-3" src="./assets/images/icon-192x192.webp" alt="icon" style="width: 3.5rem;" loading="lazy">
                 <div class="progress" role="progressbar" style="height: 0.5rem;">
                     <div class="progress-bar" id="bar" style="width: 0%"></div>
                 </div>
@@ -559,7 +559,7 @@
             <div class="modal-content">
                 <div class="modal-body p-0">
                     <div class="d-flex justify-content-center align-items-center" style="height: 100%">
-                        <img src="./assets/images/bg.webp" class="w-100" alt="foto" id="show-modal-image" />
+                        <img src="./assets/images/bg.webp" class="w-100" alt="foto" id="show-modal-image" loading="lazy"/>
                     </div>
                 </div>
             </div>
