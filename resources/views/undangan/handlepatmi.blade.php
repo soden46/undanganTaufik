@@ -41,7 +41,7 @@
 
                 <div class="py-4">
                     <div class="img-crop border border-3 border-light shadow mx-auto">
-                        <img src="./assets/images/ibuk2.jpeg" alt="bg" class="w-100" onclick="util.modal(this)" />
+                        <img src="./assets/images/ibuk2.webp" alt="bg" class="w-100" onclick="util.modal(this)" />
                     </div>
                 </div>
 
@@ -481,7 +481,7 @@
     <div class="loading-page" id="loading" style="opacity: 1;">
         <div class="d-flex justify-content-center align-items-center" style="height: 100vh !important;">
             <div class="text-center w-75">
-                <img class="img-fluid mb-3" src="./assets/images/icon-192x192.png" alt="icon" style="width: 3.5rem;">
+                <img class="img-fluid mb-3" src="./assets/images/icon-192x192.webp" alt="icon" style="width: 3.5rem;">
                 <div class="progress" role="progressbar" style="height: 0.5rem;">
                     <div class="progress-bar" id="bar" style="width: 0%"></div>
                 </div>
