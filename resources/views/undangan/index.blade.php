@@ -537,7 +537,7 @@
     <div class="loading-page" id="loading" style="opacity: 1;">
         <div class="d-flex justify-content-center align-items-center" style="height: 100vh !important;">
             <div class="text-center w-75">
-                <img class="img-fluid mb-3" src="./assets/images/icon-192x192.png" alt="icon" style="width: 3.5rem;">
+                <img class="img-fluid mb-3" src="./assets/images/icon-192x192.webp" alt="icon" style="width: 3.5rem;">
                 <div class="progress" role="progressbar" style="height: 0.5rem;">
                     <div class="progress-bar" id="bar" style="width: 0%"></div>
                 </div>
@@ -559,7 +559,7 @@
             <div class="modal-content">
                 <div class="modal-body p-0">
                     <div class="d-flex justify-content-center align-items-center" style="height: 100%">
-                        <img src="./assets/images/bg.jpeg" class="w-100" alt="foto" id="show-modal-image" />
+                        <img src="./assets/images/bg.webp" class="w-100" alt="foto" id="show-modal-image" />
                     </div>
                 </div>
             </div>
