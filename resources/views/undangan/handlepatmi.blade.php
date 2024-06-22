@@ -40,7 +40,7 @@
                 </h1>
 
                 <div class="py-4">
-                    <div class="img-crop border border-3 border-light shadow mx-auto">
+                    <div class="img-crop border border-3 border-light shadow mx-auto" data-aos="fade-up" data-aos-duration="1500">
                         <img src="{{ asset('assets/images/ibuk2.webp')}}" alt="bg" class="w-100" onclick="util.modal(this)" loading="lazy"/>
                     </div>
                 </div>
