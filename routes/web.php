@@ -5,7 +5,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', [WhatsAppController::class, 'handleWhatsAppParameter']);
 
-Route::get('/taufik-patmi-from-taufik', [WhatsAppController::class, 'handleWhatsAppParameter'])->name('handle.whatsapp.parameter');
+Route::get('/taufik-citra-from-taufik', [WhatsAppController::class, 'handleWhatsAppParameter'])->name('handle.whatsapp.parameter');
 Route::get('/taufik-citra', [WhatsAppController::class, 'handleWhatsAppParameter'])->name('handle.whatsapp.parameter');
 
 Route::get('/wa', [WhatsAppController::class, 'showWhatsAppForm'])->name('send.whatsapp.form');
